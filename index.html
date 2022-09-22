@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <style>
+        .calculator-container{
+            width:400px;
+            background-color: rgb(149, 125, 125);
+            border-radius:10px;
+            padding:5px;
+
+        }
+        .row{
+            display: flex;
+            justify-content:space-between;
+            flex-direction: row;
+            margin-top:10px;
+        }
+        .btn{
+            height:60px;
+            width:80px;
+            margin-top:10px;
+            border-radius:5px;
+            border:2px solid black;
+            font-size:35px;
+            font-weight:bold;
+            color:white;
+            background-color:gray;
+
+        }
+        .btn:hover{
+            box-shadow:0px 4px 8px white;
+            cursor:pointer;
+            transition:0.5s;
+        }
+        .input-screen{
+            height:30px;
+            width:380px;
+            margin-top:23px;
+            margin-left:23px;
+            font-size:40ps;
+            color:white;
+            background-color:gray;
+            border-radius: 20px;
+
+
+        }
+           .brand{
+            color:white;
+           }
+           .bg-color{
+            color:red;
+           }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="calculator-container">
+            <span class="brand">RTC</span>
+            <input type="text" id="input" class="input-screen">
+            <div class="row">
+
+                <button class="btn">7</button>
+
+                <button class="btn">8</button>
+
+                <button class="btn">9</button>
+
+                <button class="btn bg-color">÷</button>
+                </div>
+                <div class="row">
+
+                <button class="btn">4</button>
+
+                <button class="btn">5</button>
+
+                <button class="btn">6</button>
+                
+                <button class="btn bg-color">x</button>
+                </div>
+                <div class="row">
+
+                    <button class="btn">7</button>
+    
+                    <button class="btn">8</button>
+    
+                    <button class="btn">9</button>
+                    
+                    <button class="btn bg-color">-</button>
+                    </div>
+                    <div class="row">
+
+                        <button class="btn">0</button>
+        
+                        <button class="btn bg-color">.</button>
+        
+                        <button class="btn bg-color">+</button>
+                        
+                        <button class="btn bg-color">=</button>
+                        </div>
+
+
+
+            </div>
+        </div>
+    </body>
+
+</html>
